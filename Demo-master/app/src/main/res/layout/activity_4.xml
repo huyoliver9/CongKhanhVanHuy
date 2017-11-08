@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    android:background="@color/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="@color/yelow"
+        android:text="Muc do hoat dong cua ban"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:textSize="20sp"
+            android:text="It hoat hong"
+            android:layout_margin="8dp"
+            android:background="@drawable/botron"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:textSize="20sp"
+            android:text="3_5 gio hoat dong nhe"
+            android:layout_margin="8dp"
+            android:background="@drawable/botron"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:textSize="20sp"
+            android:text="3_5 gio hoat dong nang"
+            android:layout_margin="8dp"
+            android:background="@drawable/botron"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:textSize="20sp"
+            android:text="6_8 gio hoat dong nhe"
+            android:layout_margin="8dp"
+            android:background="@drawable/botron"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:textSize="20sp"
+            android:text="6_8 gio hoat dong nhe"
+            android:layout_margin="8dp"
+            android:background="@drawable/botron"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btn_back"
+            android:background="@drawable/botron"
+            android:textSize="16sp"
+            android:text="back"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_next"
+            android:background="@drawable/botron"
+            android:textSize="16sp"
+            android:text="next"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</LinearLayout>

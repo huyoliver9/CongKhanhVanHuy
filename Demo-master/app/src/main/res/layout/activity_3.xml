@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    android:background="@color/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_thn"
+        android:textAlignment="center"
+        android:textColor="@color/yelow"
+        android:textSize="25sp"
+        android:text="Tuoi cua ban hien nay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <NumberPicker
+        android:id="@+id/nb_tuoi"
+        android:background="@drawable/botron"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </NumberPicker>
+    <TextView
+        android:id="@+id/tv_cchn"
+        android:textColor="@color/yelow"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:text="chieu cao hien tai cua ban"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <NumberPicker
+        android:id="@+id/nb_chieu_cao"
+        android:background="@drawable/botron"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </NumberPicker>
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btn_back"
+            android:background="@drawable/botron"
+            android:textSize="16sp"
+            android:text="back"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_next"
+            android:background="@drawable/botron"
+            android:textSize="16sp"
+            android:text="next"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+</LinearLayout>
